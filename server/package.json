@@ -1,0 +1,32 @@
+{
+  "name": "test_server",
+  "version": "1.0.0",
+  "description": "Testing server to check functionality of cancellable HTTP requests in Dart",
+  "main": "src/main.mts",
+  "scripts": {
+    "start": "node --experimental-specifier-resolution=node --loader ts-node/esm src/main.mts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamJakob/cancellable_http_dart_testing.git"
+  },
+  "keywords": [
+    "cancellable",
+    "http",
+    "testing",
+    "dart"
+  ],
+  "author": "SamJakob <me@samjakob.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamJakob/cancellable_http_dart_testing/issues"
+  },
+  "homepage": "https://github.com/SamJakob/cancellable_http_dart_testing#readme",
+  "devDependencies": {
+    "@types/node": "^20.3.2"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "ts-node": "^10.9.1"
+  }
+}
